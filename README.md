@@ -56,7 +56,7 @@ The project implements low-level peripheral drivers by directly accessing STM32F
                                   |
                                   v
                             Hardware
-````
+```
 
 ### Firmware Layers
 
@@ -188,8 +188,8 @@ Implemented functionality:
 
 The firmware uses the STM32F411 memory regions defined by the linker script.
 
-| RegionAddressSize          |              |                        |
-| -------------------------- | ------------ | ---------------------- |
+| Region | Address | Size |
+|---|---|---|
 | Flash                      | `0x08000000` | 512 KB                 |
 | SRAM                       | `0x20000000` | 128 KB                 |
 | Peripheral space           | `0x40000000` | Peripheral region      |
@@ -253,8 +253,8 @@ SRAM
 
 Important STM32F411 peripheral base addresses used by the drivers:
 
-| PeripheralBase Address |              |
-| ---------------------- | ------------ |
+| Peripheral | Base Address |
+|---|---|
 | TIM2                   | `0x40000000` |
 | GPIOA                  | `0x40020000` |
 | GPIOB                  | `0x40020400` |
