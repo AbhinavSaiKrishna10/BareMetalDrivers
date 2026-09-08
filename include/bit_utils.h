@@ -17,4 +17,4 @@
  * etc.
  */
 
-#endif /* BIT_UTILS_H */
+#endif /* BIT_UTILS_H */    
